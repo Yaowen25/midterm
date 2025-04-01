@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 float calculateArea(float l, float w) {
     return l * w;
 }
