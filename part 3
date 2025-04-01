@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+string name; 
+int age;
+float favoriteNumber;
+cout << "enter your name: ";
+cin >> name;
+cout << "enter your age: ";
+cin >> age;
+cout << "enter your favorite number: ";
+cin >> favoriteNumber;
+cout << "Name: " << name << "\n";
+cout << "age: " << age << "\n";
+cout << "Favorite number: " << favoriteNumber << "\n";
+
+int a =25;
+float b =6.2;
+char c ='a';
+string d ="hello";
+cout << "variables:\n";
+cout << a << " " << b << " " << c << " " << d << "\n";
+
+return 0;
+}
