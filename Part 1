@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+float calculateArea(float l, float w) {
+    return l * w;
+}
+bool isPrime(int n) {
+    if (n <= 1) return false;
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) return false;
+    }
+    return true;
+}
+int main() {
+    cout << calculateArea(7.5, 2.0) << endl;  // New values
+    cout << (isPrime(11) ? "Prime" : "Not Prime") << endl;  // New number to check
+    return 0;
+}
